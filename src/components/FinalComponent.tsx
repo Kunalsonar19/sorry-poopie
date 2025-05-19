@@ -19,8 +19,8 @@ const FinalComponent: React.FC = () => {
           <div className="bg-white rounded-xl shadow-2xl p-8">
             {/* UNO Logo Accent */}
             <div className="flex justify-center mb-6">
-              <div className="bg-red-500 rounded-full w-16 h-16 flex items-center justify-center">
-                <span className="text-white font-bold text-xl">💗</span>
+              <div className="bg-red-700 rounded-full w-16 h-16 flex items-center justify-center">
+                <span className="text-white font-bold text-xl">🫶</span>
               </div>
             </div>
             {/* Animated Headline */}
