@@ -166,7 +166,7 @@ const CardSection: React.FC<CardSectionProps> = ({ onNext }) => {
         )}
       </div>
       {showNextButton && (
-        <div className="text-center mt-12">
+        <div className="text-center mt-12 mb-5">
           <button
             onClick={onNext}
             className="bg-yellow-400 hover:bg-yellow-300 text-gray-900 font-bold py-3 px-8 rounded-full transition-all duration-300 inline-flex items-center"

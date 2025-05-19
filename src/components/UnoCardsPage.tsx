@@ -215,7 +215,7 @@ const UnoCardsPage: React.FC<UnoCardsPageProps> = ({ onNext }) => {
       </div>
 
       {flipped.every((isFlipped) => isFlipped) && (
-        <div className="text-center transition-all duration-500">
+        <div className="text-center transition-all duration-500 mb-5">
           <button
             onClick={onNext}
             className="bg-yellow-400 hover:bg-yellow-300 text-gray-800 font-bold py-3 px-6 rounded-full transition-all duration-300 inline-flex items-center"

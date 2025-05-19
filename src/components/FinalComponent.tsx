@@ -15,11 +15,11 @@ const FinalComponent: React.FC = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
-        <div className="max-w-4xl w-full p-8">
+        <div className="max-w-4xl w-full p-4">
           <div className="bg-white rounded-xl shadow-2xl p-8">
             {/* UNO Logo Accent */}
             <div className="flex justify-center mb-6">
-              <div className="bg-red-700 rounded-full w-16 h-16 flex items-center justify-center">
+              <div className="bg-red-500 rounded-full w-16 h-16 flex items-center justify-center">
                 <span className="text-white font-bold text-xl">💗</span>
               </div>
             </div>
